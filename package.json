@@ -1,0 +1,28 @@
+{
+  "name": "getseer",
+  "version": "1.0.0",
+  "description": "proxy api keys in http calls to SEER",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=getseer",
+    "dev": "node --inspect node_modules/@google-cloud/functions-framework --target=getseer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/episphere/getseer.git"
+  },
+  "keywords": [
+    "seer",
+    "api"
+  ],
+  "author": "Jonas S Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/episphere/getseer/issues"
+  },
+  "homepage": "https://github.com/episphere/getseer#readme",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.7.1"
+  }
+}
